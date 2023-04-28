@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="example1" style="height:100%;"></div>
+    <script src="./pdfobject.js"></script>
+    <!-- PDFObject.embed("pdf파일 경로", "태그 id"); 자바 스크립트랑 인덱스랑 같은 파일에 위치함-->
+    <script>PDFObject.embed("./pdf/SISUN-catalog.pdf", "#example1");</script>
+
+    <!-- 이거 전에 코딩한거 -->
+        <!-- <iframe class="ecclabPdf" src="./pdf/이끌랩 카탈로그.pdf"></iframe> -->
+</body>
+</html>
